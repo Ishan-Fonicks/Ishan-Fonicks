@@ -1,1 +1,12 @@
-
+let/x/0/
+let/a/0/
+let/x/(:x+1)/
+let/y/(:x%3)/
+let/z/(:x%5)/
+if/(:y=0)/9/
+let/a/(:a+:x)/
+go/11/
+if/(:z=0)/11/
+let/a/(:a+:x)/
+if/(:x=999)/3/
+out/:a/
